@@ -39,7 +39,7 @@ const prefix = "*"; // البرافيكس
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-   client.user.setActivity("Kahrbaa MUSIC✨",{type: 'WATCHING'})
+   client.user.setActivity("hassan MUSIC✨",{type: 'WATCHING'})
 });
 
   
