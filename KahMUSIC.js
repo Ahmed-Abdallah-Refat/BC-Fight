@@ -6,7 +6,7 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 setInterval(() => {
-  http.get(`http://.glitch.me/`);
+  http.get(`http://.wearefamily-upglitch.me/`);
 }, 280000);
 
 //======================================[Const]======================================
@@ -26,18 +26,18 @@ const weather = require("weather-js");
 const pretty = require("pretty-ms");
 client.on("warn", console.warn);
 client.on("error", console.error);
-const GUILDID = "692392082945343508"; // اي دي السيرفر
-const CHANNELID = "692410641239244841"; // اي دي الروم
+const GUILDID = "595909465170247683"; // اي دي السيرفر
+const CHANNELID = "649679445753593856"; // اي دي الروم
 
 //=================//
-const prefix = "h"; // البرافيكس
+const prefix = "w"; // البرافيكس
 //=================//
 
 // =================================[ SettingsVIP ]===================================
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity("❤️❤️", { type: "STREAMING" });
+  client.user.setActivity("UP", { type: "STREAMING" });
 });
 
 //======================================[Owners]======================================
