@@ -6,7 +6,7 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 setInterval(() => {
-  http.get(`http://.wearefamily-upglitch.me/`);
+  http.get(`http://.glitch.me/`);
 }, 280000);
 
 //======================================[Const]======================================
