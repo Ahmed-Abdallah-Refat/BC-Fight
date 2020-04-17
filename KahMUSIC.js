@@ -6,7 +6,7 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 setInterval(() => {
-  http.get(`tfwup.glitch.me/`);
+  http.get(`terror10.glitch.me/`);
 }, 280000);
 
 //======================================[Const]======================================
@@ -26,18 +26,18 @@ const weather = require("weather-js");
 const pretty = require("pretty-ms");
 client.on("warn", console.warn);
 client.on("error", console.error);
-const GUILDID = "595909465170247683"; // اي دي السيرفر
-const CHANNELID = "700581424914497627"; // اي دي الروم
+const GUILDID = "697743738650492978"; // اي دي السيرفر
+const CHANNELID = ""; // اي دي الروم
 
 //=================//
-const prefix = "w"; // البرافيكس
+const prefix = "t"; // البرافيكس
 //=================//
 
 // =================================[ SettingsVIP ]===================================
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity("UP", { type: "STREAMING" });
+  client.user.setActivity("Terror", { type: "STREAMING" });
 });
 
 //======================================[Owners]======================================
