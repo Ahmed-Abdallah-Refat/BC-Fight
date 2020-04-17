@@ -6,7 +6,7 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 setInterval(() => {
-  http.get(`terror10.glitch.me/`);
+  http.get(`terror9.glitch.me/`);
 }, 280000);
 
 //======================================[Const]======================================
@@ -27,10 +27,10 @@ const pretty = require("pretty-ms");
 client.on("warn", console.warn);
 client.on("error", console.error);
 const GUILDID = "697743738650492978"; // اي دي السيرفر
-const CHANNELID = "697743738650492983"; // اي دي الروم
+const CHANNELID = "700268051118948453"; // اي دي الروم
 
 //=================//
-const prefix = "A"; // البرافيكس
+const prefix = "t"; // البرافيكس
 //=================//
 
 // =================================[ SettingsVIP ]===================================
