@@ -27,7 +27,7 @@ const pretty = require("pretty-ms");
 client.on("warn", console.warn);
 client.on("error", console.error);
 const GUILDID = "697743738650492978"; // اي دي السيرفر
-const CHANNELID = ""; // اي دي الروم
+const CHANNELID = "700268211786219621"; // اي دي الروم
 
 //=================//
 const prefix = "t"; // البرافيكس
@@ -42,7 +42,7 @@ client.on("ready", () => {
 
 //======================================[Owners]======================================
 
-const developers = ["555974394581745679", "", "", ""];
+const developers = ["", "", "", ""];
 
 client.on("message", message => {
   let argresult = message.content
