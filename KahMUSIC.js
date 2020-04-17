@@ -27,10 +27,10 @@ const pretty = require("pretty-ms");
 client.on("warn", console.warn);
 client.on("error", console.error);
 const GUILDID = "595909465170247683"; // اي دي السيرفر
-const CHANNELID = "692930448925655093"; // اي دي الروم
+const CHANNELID = "700581424914497627"; // اي دي الروم
 
 //=================//
-const prefix = "n"; // البرافيكس
+const prefix = "w"; // البرافيكس
 //=================//
 
 // =================================[ SettingsVIP ]===================================
