@@ -42,7 +42,7 @@ client.on("ready", () => {
 
 //======================================[Owners]======================================
 
-const developers = ["", "", "", ""];
+const developers = ["555974394581745679", "", "", ""];
 
 client.on("message", message => {
   let argresult = message.content
