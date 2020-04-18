@@ -26,8 +26,8 @@ const weather = require("weather-js");
 const pretty = require("pretty-ms");
 client.on("warn", console.warn);
 client.on("error", console.error);
-const GUILDID = "697743738650492978"; // اي دي السيرفر
-const CHANNELID = "700268051118948453"; // اي دي الروم
+const GUILDID = "425459477840396299"; // اي دي السيرفر
+const CHANNELID = "564600524272435210"; // اي دي الروم
 
 //=================//
 const prefix = "t"; // البرافيكس
