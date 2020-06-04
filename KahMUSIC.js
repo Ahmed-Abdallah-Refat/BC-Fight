@@ -95,7 +95,6 @@ client.on("ready", async () => {
       .find(ch => ch.id === CHANNELID && ch.type === "voice")
       .join();
   }, 1000);
-  voiceStay(GUILDID, CHANNELID);
   function voiceStay(guildid, channelid) {
     if (!guildid)
       throw new Error("Syntax: voiceStay function requires guildid");
@@ -721,24 +720,26 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  var helplist = `**:notes:  قائمة الاوامر:  
+  var helplist = `**:notes:  **List OF** Commands:  
 
-> Play : تشغيل الاغنية او اضافتها للقائمة او اكمال الاغنية [p] 
-> Pause : ايقاف مؤقت الاغنية  
-> Resume : اكمال الاغنية 
-> stop : لأيقاف الأغنية وخروج البوت من الروم
-> forceskip : لتخطي الأغنية بشكل مباشر
-> Queue : عرض القائمة 
-> skipto : لتخطي الأغنية الى الأغنية القادمة في طابور الموسيقى القادمة
-> Skip : تخطي للاغنية التالية 
-> Volume : تغيير الصوت [vol] 
-> Nowplaying : عرض مايتم تشغيله الان [np] 
-> Ping : سرعة استجابة البوت 
-> repeat : تكرار الاغنية 
-> Leave : الخروج من الروم الصوتي  
-
-K-MUSIC BOT V2 - CODE BY : xFury
--https://discord.gg/fh8cefg
+Play : **for playing songs or resume**
+Pause :** for Pause songs **
+Resume : **for resume songs**
+Stop : **for Stop music or stop songs**
+forceskip : **for skip song directly**
+Queue : **for list of Songs**
+Aliases = **First lettre of Command Word**
+Skipto : **for next song or jumb to another**
+Volume : **for change song volume**
+Nowplay : **for see the song play**
+Ping : **for seeing the bot speed**
+Repeat :** for repeat song or queue**
+Leave : **for leave bot from channel**
+Aliases = First lettre of Command Word 
+Like : **[ p - r - s - fs - q - v ]**
+For additional help Discord Link :
+Music Bot V3.0  by : Ahmed Fury#7700
+- http://discord.gg/7NxrzHE 
 **`;
   if (message.content === prefix + "help") {
     message.delete(1000);
