@@ -454,8 +454,9 @@ client.on("message", async msg => {
 
     let disp = queue.connection.dispatcher;
 
-    if (isNaN(args[0])) return msg.channel.send(`**\queue.volume\`**`)(queue.volume);   
-
+    if (isNaN(args[0]))
+      return msg.channel.send("Volume Is",(queue.volume));   
+    
     if (parseInt(args[0]) > 1000)
       return msg.channel.send("You can't set the volume more than 1000.");
     //:speaker: Volume changed from 20 to 20 ! The volume has been changed from ${queue.volume} to ${args[0]}
