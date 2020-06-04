@@ -454,7 +454,7 @@ client.on("message", async msg => {
 
     let disp = queue.connection.dispatcher;
 
-    if (isNaN(args[0])) return msg.channel.send("Volume")(queue.volume);
+    if (isNaN(args[0])) return msg.channel.send(`**\queue.volume\`**`)(queue.volume);   
 
     if (parseInt(args[0]) > 1000)
       return msg.channel.send("You can't set the volume more than 1000.");
@@ -730,16 +730,16 @@ forceskip : **for skip song directly**
 Queue : **for list of Songs**
 Aliases = **First lettre of Command Word**
 Skipto : **for next song or jumb to another**
-Volume : **for change song volume**
+Volume : **for change song volume** ( 0 - 1000 )
 Nowplay : **for see the song play**
 Ping : **for seeing the bot speed**
 Repeat :** for repeat song or queue**
 Leave : **for leave bot from channel**
 Aliases = First lettre of Command Word 
 Like : **[ p - r - s - fs - q - v ]**
-For additional help Discord Link :
-Music Bot V3.0  by : Ahmed Fury#7700
+For additional help Developer Server :
 - http://discord.gg/7NxrzHE 
+Music Bot V3.0  by : Ahmed Fury#7700
 **`;
   if (message.content === prefix + "help") {
     message.delete(1000);
