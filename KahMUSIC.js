@@ -27,7 +27,7 @@ const pretty = require("pretty-ms");
 client.on("warn", console.warn);
 client.on("error", console.error);
 const GUILDID = "425459477840396299"; // اي دي السيرفر
-const CHANNELID = "564600524272435210"; // اي دي الروم
+const CHANNELID = "714924401488822364"; // اي دي الروم
 
 //=================//
 const prefix = "t"; // البرافيكس

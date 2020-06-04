@@ -5,14 +5,14 @@
   "main": "KahMUSIC.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Abady321x123/simple-music.git"
+    "url": "git+https://github.com/zealcordNation/music-bot-example.git"
   },
   "author": "Kahrbaa",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Abady321x123/simple-music/issues"
+    "url": "https://github.com/zealcordNation/music-bot-example/issues"
   },
-  "homepage": "https://github.com/Abady321x123/simple-music#readme",
+  "homepage": "https://github.com/zealcordNation/music-bot-example#readme",
   "dependencies": {
     "anti-spam": "^0.2.7",
     "array-sort": "^1.0.0",
