@@ -42,7 +42,7 @@ client.on("ready", () => {
 
 //======================================[Owners]======================================
 
-const developers = ["", "", "", ""];
+const developers = ["451372359291502599", "631940902780272650"];
 
 client.on("message", message => {
   let argresult = message.content
@@ -454,17 +454,17 @@ client.on("message", async msg => {
 
     let disp = queue.connection.dispatcher;
 
-    if (isNaN(args[0])) return msg.channel.send(":notes: Numbers only!");
+    if (isNaN(args[0])) return msg.channel.send("Volume")(queue.volume);
 
-    if (parseInt(args[0]) > 100)
-      return msg.channel.send("You can't set the volume more than 100.");
+    if (parseInt(args[0]) > 1000)
+      return msg.channel.send("You can't set the volume more than 1000.");
     //:speaker: Volume changed from 20 to 20 ! The volume has been changed from ${queue.volume} to ${args[0]}
     msg.channel.send(
-      ":speaker: Volume has been **changed** from (`" +
+      ":speaker: Volume **changed** from **" +
         queue.volume +
-        "`) to (`" +
+        "** to **" +
         args[0] +
-        "`)"
+        "** "
     );
 
     queue.volume = args[0];
