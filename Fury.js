@@ -130,7 +130,7 @@ const ytdl = require("ytdl-core");
 const getYoutubeID = require("get-youtube-id");
 const fetchVideoInfo = require("youtube-info");
 const YouTube = require("simple-youtube-api");
-const youtube = new YouTube("AIzaSyBDsBs0_FMfU4wvZlrHgs9oOHJ14s6CF8c");
+const youtube = new YouTube("AIzaSyCXTzXMDt708ZmVOi0NGF9EefnLKN3sVdQ");
 
 let active = new Map();
 
