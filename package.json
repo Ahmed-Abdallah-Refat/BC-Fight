@@ -1,13 +1,13 @@
 {
-  "name": "Kahrbaa",
-  "version": "2.0.0",
-  "description": "Music Bot V2",
-  "main": "KahMUSIC.js",
+  "name": "Fury",
+  "version": "3.0.0",
+  "description": "Music Bot V3.0",
+  "main": "Fury.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zealcordNation/music-bot-example.git"
   },
-  "author": "Kahrbaa",
+  "author": "Fury",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zealcordNation/music-bot-example/issues"
@@ -91,6 +91,6 @@
     "zealcord.js": "^1.1.2"
   },
   "scripts": {
-    "start": "node KahMUSIC.js"
+    "start": "node Fury.js"
   }
 }

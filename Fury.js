@@ -30,14 +30,14 @@ const GUILDID = "425459477840396299"; // اي دي السيرفر
 const CHANNELID = "692410644842020907"; // اي دي الروم
 
 //=================//
-const prefix = "t"; // البرافيكس
+const prefix = "x"; // البرافيكس
 //=================//
 
 // =================================[ SettingsVIP ]===================================
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity("Terror", { type: "STREAMING" });
+  client.user.setActivity("xFury", { type: "STREAMING" });
 });
 
 //======================================[Owners]======================================
@@ -52,7 +52,7 @@ client.on("message", message => {
   if (message.content.startsWith(prefix + "setStreaming")) {
     if (!developers.includes(message.author.id)) return;
     message.delete();
-    client.user.setGame(argresult, "https://twitch.tv/Kahrbaa");
+    client.user.setGame(argresult, "https://twitch.tv/fury");
   } else if (message.content.startsWith(prefix + "setWatching")) {
     client.user.setActivity(argresult, { type: "WATCHING" });
   } else if (message.content.startsWith(prefix + "setListening")) {
@@ -130,7 +130,7 @@ const ytdl = require("ytdl-core");
 const getYoutubeID = require("get-youtube-id");
 const fetchVideoInfo = require("youtube-info");
 const YouTube = require("simple-youtube-api");
-const youtube = new YouTube("AIzaSyDBe5dEglx52I1PhTVxbEfLMHvmb5aGhVk");
+const youtube = new YouTube("AIzaSyCduyy4HvC8jTEbgPdrLr72XnPnV0upqsw");
 
 let active = new Map();
 
@@ -139,7 +139,7 @@ client.on("warn", console.warn);
 client.on("error", console.error);
 
 client.on("ready", () => {
-  console.log(`Created By: Kahrbaa`);
+  console.log(`Created By: Ahmed Fury#7700`);
   console.log(`Guilds: ${client.guilds.size}`);
   console.log(`Users: ${client.users.size}`);
 });
